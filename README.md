@@ -1,3 +1,5 @@
-### python-learning(也就是说以后小练习什么的写在这里)
-1. flaskr中是flask练习的例子，主要是基本知识点什么的，一个完整的可以运行的程序，[教程](http://wiki.jikexueyuan.com/project/flask-guide/quick-start.html)
-2. flask-weibo = flask + sqlite3 + sqlalchemy(TODO)
+1. baidu_voice.py
+写语音识别的时候挺好玩的，可以直接调用百度接口，直接合成语言什么的，哈哈，然后还能直接识别，就随手写了一个小函数，听到电脑说出来的话的时候还是很好玩的
+
+2. flaskr
+flask 学习的小代码，见flaskr/README.md
