@@ -1,6 +1,9 @@
 # -*- coding:utf-8 -*-
-import requests
+import sys
 import urllib
+
+import requests
+
 from settings import CLIENT_ID, CLIENT_SECRET, CUID
 
 
@@ -22,6 +25,5 @@ def text_to_voice(text, cuid, token):
 
 if __name__ == '__main__':
 	token = get_access_token(CLIENT_ID, CLIENT_SECRET)
-	text = '我有点喜欢你'
+	text = sys.argv[1]
 	text_to_voice(text, CUID, token)
-	
